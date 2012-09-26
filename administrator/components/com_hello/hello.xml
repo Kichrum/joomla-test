@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.6" method="install">
+    <name>Hello!</name>
+    <!-- Следующие элементы являются необязательными -->
+    <creationDate>Sep 2012</creationDate>
+    <author>Kichrum</author>
+    <authorEmail>work@kichrum.org.ua</authorEmail>
+    <authorUrl>http://kichrum.org.ua</authorUrl>
+    <copyright>Все права проиграны в покер</copyright>
+    <license>Лицензия есть? А если найду?</license>
+    <!-- /////////// -->
+    <!-- Версия компонента -->
+    <version>0.2.1</version>
+    <!-- Описание компонента, не является обязательным, и по умолчанию используется имя -->
+    <description>В общем это описание привета</description>
+
+    <!-- Копируем файлы для сайта -->
+    <!-- Обратите внимание на аттрибут folder, он указыает с какой папки будут копироваться файлы -->
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>hello.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+    </files>
+
+    <administration>
+        <!-- Создаем меню для аминистративной панели -->
+        <menu>Hello!</menu>
+        <!-- Копируем файлы для административной панели -->
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>hello.php</filename>
+        </files>
+    </administration>
+</extension>

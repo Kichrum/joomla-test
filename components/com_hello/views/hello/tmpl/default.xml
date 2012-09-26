@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : default.xml
+    Created on : 25 Сентябрь 2012 г., 17:30
+    Author     : kichrum
+    Description:
+        Purpose of the document follows.
+-->
+
+<metadata>
+    <layout title="Вывод компонента привета">
+        <message>А это всплывающая подсказка</message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request">
+            <field
+                id="id"
+                name="id"
+                type="list"
+                label="Выберите значение"
+                description="Это описание"
+                default="1"
+            >
+                <option value="1">Привет!</option>
+                <option value="2">Пока!</option>
+            </field>
+        </fieldset>
+    </fields>
+</metadata>
