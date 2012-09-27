@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+   <fieldset name="global" label="JGLOBAL_FIELDSET_OPTIONS">
+      <field name="sef_advanced_link"
+	     type="radio"
+	     default="0"
+	     label="Sef Advanced Mode"
+	     description="Remove ItemID from Content URL?">
+	 <option value="0">JNO</option>
+	 <option value="1">JYES</option>
+      </field>
+   </fieldset>
+   <fieldset
+      name="permissions"
+      label="JCONFIG_PERMISSIONS_LABEL"
+      description="JCONFIG_PERMISSIONS_DESC"
+   >
+      <field
+	 name="rules"
+	 type="rules"
+	 label="JCONFIG_PERMISSIONS_LABEL"
+	 class="inputbox"
+	 validate="rules"
+	 filter="rules"
+	 component="com_test"
+	 section="component" />
+   </fieldset>
+</config>
