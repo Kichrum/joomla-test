@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<extension type="component" version="2.5.6" method="upgrade">
+<extension type="component" version="1.6.0" method="upgrade">
     <name>com_test</name>
     <author>Sergii.Pashko</author>
     <authorEmail>work@kichrum.org.ua</authorEmail>
     <authorUrl>http://kichrum.org.ua</authorUrl>
-    <copyright>Мой копирайт</copyright>
-    <license>Лицензию потерял</license>
+    <copyright>Копирайт</copyright>
+    <license>Лицензия</license>
     <version>1.0</version>
-    <description>Описание моего тестового компонента</description>
+    <description>Описание</description>
     <files folder="site">
         <filename>index.html</filename>
         <filename>test.php</filename>
@@ -36,7 +36,9 @@
     <administration>
         <menu>COM_TEST</menu>
         <submenu>
-            <menu link="option=com_test&amp;view=testlist" view="testlist" img="class:test" alt="TEST_DESC">TEST_SUBMENU</menu>
+            <menu link="option=com_test&amp;amp;view=testlist" view="testlist" img="class:test">
+                TEST_SUBMENU
+            </menu>
         </submenu>
         <files folder="admin">
             <filename>index.html</filename>
